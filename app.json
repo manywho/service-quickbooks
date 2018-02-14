@@ -3,5 +3,15 @@
   "description": "A plugin that allows your Boomi Flows to integrate with Quickbooks",
   "repository": "https://github.com/manywho/service-quickbooks",
   "logo": "https://s3.amazonaws.com/manywho-service-assets/icons/service-quickbooks.png",
-  "keywords": ["manywho", "boomi", "quickbooks", "plugin", "workflow"]
+  "keywords": ["manywho", "boomi", "quickbooks", "plugin", "workflow"],
+  "env": {
+    "QUICKBOOKS_CLIENT_ID": {
+      "description": "The Quickbooks Online client ID to use when generating access tokens",
+      "required": true
+    },
+    "QUICKBOOKS_CLIENT_SECRET": {
+      "description": "The Quickbooks Online client secret to use when generating access tokens",
+      "required": true
+    }
+  }
 }
