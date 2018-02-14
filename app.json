@@ -1,0 +1,7 @@
+{
+  "name": "Boomi Flow Quickbooks Service",
+  "description": "A plugin that allows your Boomi Flows to integrate with Quickbooks",
+  "repository": "https://github.com/manywho/service-quickbooks",
+  "logo": "https://s3.amazonaws.com/manywho-service-assets/icons/service-quickbooks.png",
+  "keywords": ["manywho", "boomi", "quickbooks", "plugin", "workflow"]
+}
